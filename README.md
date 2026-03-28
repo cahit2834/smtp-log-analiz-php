@@ -5,6 +5,7 @@ Mail sunucunuzun SMTP log dosyalarından belirli bir e-posta adresine ait tüm s
 Bu şekilde bir kod sayesinde büyük ve karmaşık log dosyalarından sadece ilgili mail trafiğini ayrıştırabilir, müşterinize özel log çıktısı oluşturabilirsiniz.
 
 
+
 🚀 Kod Özellikleri
 
 📌 Belirli bir e-posta adresine göre filtreleme
@@ -20,6 +21,7 @@ Bu şekilde bir kod sayesinde büyük ve karmaşık log dosyalarından sadece il
 📁 Otomatik çıktı dosyası oluşturma
 
 
+
 🧠 Nasıl Çalışır?
 
 SMTP logları satır bazlı ve parçalıdır.
@@ -33,6 +35,7 @@ O satırdaki IP adresini alır
 Alt ve üst satırlarda aynı IP’ye ait logları toplar
 
 Bu sayede ilgili mailin tüm SMTP akışı çıkarılır.
+
 
 
 
@@ -56,6 +59,7 @@ php script.php
 
 
 
+
 ⚙️ Kullanım
 
 Script şu işlemleri yapar:
@@ -67,6 +71,7 @@ Hedef mail adresini arar
 Aynı IP üzerinden geçen trafik akışını filtreler
 
 Sonucu yeni bir log dosyasına yazar
+
 
 
 🧾 Örnek Log
@@ -86,6 +91,7 @@ $range = 100;
 $excludeIp = "185.86.***.14";
 
 
+
 🎯 Kullanım Senaryoları
 
 Mail trafiğini analiz etmek
@@ -99,11 +105,13 @@ Brute force saldırı analizi yapmak
 Spam mail incelemeleri
 
 
+
 🔗 Detaylı Anlatım (Blog)
 
 👉 Bu scriptin detaylı anlatımı ve kullanım rehberi:
 
 [https://sizinsayfaniz.com/blog2/Kurumsal-Mail-Sunuculari-Icin-Php-Log-Analizi.html](https://sizinsayfaniz.com/blog2/Kurumsal-Mail-Sunuculari-Icin-Php-Log-Analizi.html)
+
 
 
 ⚠️ Notlar
