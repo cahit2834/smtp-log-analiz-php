@@ -40,7 +40,7 @@ Bu sayede ilgili mailin tüm SMTP akışı çıkarılır.
 
 Bu repoyu indir:
 
-git clone https://github.com/cahit2834/smtp-log-analiz-php
+git clone [https://github.com/cahit2834/smtp-log-analiz-php](https://github.com/cahit2834/smtp-log-analiz-php.git)
 
 Log dosyanızı /log/ klasörüne koyun:
 
