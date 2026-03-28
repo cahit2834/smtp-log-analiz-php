@@ -71,7 +71,7 @@ Sonucu yeni bir log dosyasına yazar
 
 🧾 Örnek Log
 
-RCPT TO:<destek@sizinsayfaniz.com>
+RCPT TO:<destek@example.com>
 
 MAIL FROM:<example@mail.com>
 
